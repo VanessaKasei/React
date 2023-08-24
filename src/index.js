@@ -4,13 +4,12 @@ import ReactDOM from 'react-dom/client';
 //render - defines the React component that should be rendered
 //JSX allows us to write html tags inside js code
 //root node is the html element where you want to display the results
-const x = 5;
-let text = "Goodbye";
-if (x < 10) {
-  text = "Hello";
+
+
+function Car() {
+  return <h2>Hi, I am a car</h2>
 }
 
-const myElement = <h1>{text}</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById('demo'));
-root.render(myElement);
+root.render(<Car />);
