@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar'; // Import your Navbar component
+import Navbar from './Navbar'; 
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <Navbar /> {/* Render the Navbar */}
+    <div className='layout-container'>
+      <Navbar /> 
       <main>
-        {children} {/* Render the content passed as children */}
-      </main>
+        {children} 
+      </main>  
     </div>
   );
 };
