@@ -1,0 +1,33 @@
+.bungalow-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#bungalow1 {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#bungalow2 {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10px;
+    opacity: 5;
+    transition: opacity 0.3s ease;
+
+}
+
+#bungalow4 {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
