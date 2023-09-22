@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './pages/Navbar';
 import Layout from './pages/Layout';
+import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
+import HomeListing from './pages/HomeListing';
 import Contact from './pages/Contact';
+import './App.css';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path='/' element={<Layout />}/>
           <Route index element={<Home />}/>
           <Route path='about' element={<About />} />
-          <Route path='services' element={<Services />}/>
+          <Route path='homelisting' element={<HomeListing />}/>
           <Route path='contact' element={<Contact/>}/>
         </Routes>
       </div>
