@@ -1,21 +1,82 @@
-/* Navbar.css */
-nav {
-    background-color: #51e7a9;
-    color: white;
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: end;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    height: 8vh;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    float: right;
+.nav-list {
+    list-style-type: none;
+    padding: 0px;
 }
 
-li {
-    margin-right: 20px;
+.nav-item {
+    display: inline;
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    transition: font-size 0.1s;
+    padding: 30px;
+    font-size: 19px;
+    color: black;
+}
+
+.nav-item a:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    cursor: pointer;
 }
+
+/* Style the hamburger icon */
+.hamburger-icon {
+    cursor: pointer;
+    display: block;
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 15px;
+    text-align: right;
+  }
+
+  .navbar.show-menu .hamburger-icon {
+    display: block; /* Display the hamburger icon when the menu is open */
+  }
+  
+  .navbar:not(.show-menu) .nav-list {
+    display: flex;
+    flex-direction: row; /* Display items inline */
+    align-items: center; /* Align items horizontally */
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .navbar:not(.show-menu) .nav-item {
+    margin-left: 20px; /* Add spacing between items */
+  }
+  /* Show the menu items when the menu is open 
+  .navbar.show-menu .nav-list {
+    display: block;
+    text-align: end;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+  }*/
+  .navbar.show-menu .nav-list .nav-item {
+    display: inline;
+    align-items: center;
+    padding: 10px;
+    
+
+  }
+  @media (max-width: 768px) {
+    .navbar.show-menu .nav-list .nav-item{
+      display: block;
+    }
+  }
