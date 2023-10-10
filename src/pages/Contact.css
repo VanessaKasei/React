@@ -1,21 +1,101 @@
 .contact-page {
     max-width: 100%;
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(233, 232, 232);
 }
 
-#whatsapp-icon,
-#twitter-icon,
+#myicons {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    
+}
+
+#facebook-icon {
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: black;
+    transition: font-size 0.3s ease-in-out;
+    
+  }
+  
+#whatsapp-icon {
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: black;
+    transition: font-size 0.3s ease-in-out;
+  }
+
+#instagram-icon {
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: black;
+    transition: font-size 0.3s ease-in-out;
+}
+
 #linkedin-icon {
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: black;
+    transition: font-size 0.3s ease-in-out;
+}
+#linkedin-icon:hover,
+#whatsapp-icon:hover,
+#facebook-icon:hover,
+#instagram-icon:hover {
+  color: rgb(5, 70, 60);
+  
+  font-size: 36px
+}
+
+@media (max-width: 768px) {
+    #facebook-icon,
+    #instagram-icon,
+    #whatsapp-icon,
+    #linkedin-icon{
+      font-size: 24px; 
+
+    }
+  }
+  
+  @media (min-width: 769px) {
+    #facebook-icon,
+    #instagram-icon,
+    #whatsapp-icon,
+    #linkedin-icon{
+      font-size: 32px; 
+    }
+  }
+
+  .contact-container {
+    width: 70%; /* Set the width to 70% */
+    margin: 0 auto; /* Center the container horizontally */
+    height: fit-content;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    transition: transform(0.2);
+    margin-top: 50px;
+    padding: 0;
+    
 }
 
-#whatsapp-icon,
-#twitter-icon,
-#linkedin-icon {
-    transform: scale(1.2);
+#contact {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
 }
+#phone {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#mail {
+    margin: 10px;
+    cursor: pointer;
+}
+
