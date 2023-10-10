@@ -1,7 +1,7 @@
 .home-page {
     height: 120vh;
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 230, 148);
 }
 
 .image-container {
@@ -11,11 +11,7 @@
     margin-bottom: 70px;    
 }
 
-@media (max-width: 768px) {
-    .home-page{
-      height: 90vh; 
-    }
-}
+
 
 #image {
     height: auto;
