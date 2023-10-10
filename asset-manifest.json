@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.96020144.css",
+    "main.js": "/React/static/js/main.72334b06.js",
+    "static/js/623.1e0321c1.chunk.js": "/React/static/js/623.1e0321c1.chunk.js",
+    "static/js/992.7e8d9c62.chunk.js": "/React/static/js/992.7e8d9c62.chunk.js",
+    "static/js/577.f617647a.chunk.js": "/React/static/js/577.f617647a.chunk.js",
+    "static/js/209.93863eb2.chunk.js": "/React/static/js/209.93863eb2.chunk.js",
+    "static/js/574.093279ee.chunk.js": "/React/static/js/574.093279ee.chunk.js",
+    "static/js/891.0987b34a.chunk.js": "/React/static/js/891.0987b34a.chunk.js",
+    "static/js/936.1b8ddf8d.chunk.js": "/React/static/js/936.1b8ddf8d.chunk.js",
+    "static/js/810.d34f1dc7.chunk.js": "/React/static/js/810.d34f1dc7.chunk.js",
+    "static/media/home1.jpg": "/React/static/media/home1.a22c36f4b02813a9f17c.jpg",
+    "static/media/home2.png": "/React/static/media/home2.fe19eedcbe3620c93e09.png",
+    "static/media/bungalow1.jpg": "/React/static/media/bungalow1.cab6444cc6e8398e9687.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/React/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/React/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/React/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bungalow4.jpg": "/React/static/media/bungalow4.fdf6dc66956fdcaf79ae.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/React/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/bungalow5.jpg": "/React/static/media/bungalow5.2f6aafbe83f2a0f67473.jpg",
+    "static/media/bungalow3.jpg": "/React/static/media/bungalow3.1ff51a8d6e85a841535f.jpg",
+    "static/media/bungalow2.jpg": "/React/static/media/bungalow2.0c759c57db61f11aa5ce.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/background1.avif": "/React/static/media/background1.eccf28b1e5287174f938.avif",
+    "index.html": "/React/index.html",
+    "main.96020144.css.map": "/React/static/css/main.96020144.css.map",
+    "main.72334b06.js.map": "/React/static/js/main.72334b06.js.map",
+    "623.1e0321c1.chunk.js.map": "/React/static/js/623.1e0321c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96020144.css",
+    "static/js/main.72334b06.js"
+  ]
+}

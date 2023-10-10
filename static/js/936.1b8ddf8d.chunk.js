@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearning_react=self.webpackChunklearning_react||[]).push([[936],{4936:function(a,e,n){a.exports=n.p+"static/media/bungalow5.2f6aafbe83f2a0f67473.jpg"}}]);
