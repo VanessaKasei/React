@@ -1,16 +1,16 @@
 .navbar {
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-    text-align: end;
+    background-color: rgb(2, 51, 63);
+    padding: 15px;
+    text-align: center;
     position: sticky;
     z-index: 100;
     top: 0;
-    height: 8vh;
+    margin-bottom: 20px;
 }
 
 .nav-list {
     list-style-type: none;
-    padding: 0px;
+    padding: 10px;
 }
 
 .nav-item {
@@ -20,63 +20,13 @@
 
 .nav-item a {
     text-decoration: none;
-    transition: font-size 0.1s;
     padding: 30px;
-    font-size: 19px;
-    color: black;
-}
-
-.nav-item a:hover {
-    font-size: 25px;
-    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 a {
     cursor: pointer;
 }
 
-/* Style the hamburger icon */
-.hamburger-icon {
-    cursor: pointer;
-    display: block;
-    font-size: 24px; /* Adjust the size as needed */
-    padding: 15px;
-    text-align: right;
-  }
-
-  .navbar.show-menu .hamburger-icon {
-    display: block; /* Display the hamburger icon when the menu is open */
-  }
-  
-  .navbar:not(.show-menu) .nav-list {
-    display: flex;
-    flex-direction: row; /* Display items inline */
-    align-items: center; /* Align items horizontally */
-    justify-content: flex-end; /* Align items to the right */
-  }
-  
-  .navbar:not(.show-menu) .nav-item {
-    margin-left: 20px; /* Add spacing between items */
-  }
-  /* Show the menu items when the menu is open 
-  .navbar.show-menu .nav-list {
-    display: block;
-    text-align: end;
-    position: absolute;
-    top: 10vh;
-    right: 0;
-    background-color: rgb(255, 255, 255);
-    width: 40%;
-  }*/
-  .navbar.show-menu .nav-list .nav-item {
-    display: inline;
-    align-items: center;
-    padding: 10px;
-    
-
-  }
-  @media (max-width: 768px) {
-    .navbar.show-menu .nav-list .nav-item{
-      display: block;
-    }
-  }
