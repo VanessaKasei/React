@@ -1,9 +1,21 @@
-.property-listing {
-  max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: fit-content;
-    
-    
+.myhomes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 767px) {
+  .myhomes {
+    grid-template-columns: 1fr;
   }
+}
+
+.myhomes .property {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
