@@ -5,7 +5,7 @@ import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import HomeListing from './pages/HomeListing';
 import Contact from './pages/Contact';
-import './App.css';
+import './style.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
@@ -16,9 +16,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />}/>
-          {/*<Route index element={<Home />}/>*/}
-          <Route path='homelisting' element={<HomeListing />}/>
-          <Route path='contact' element={<Contact/>}/>
+          <Route index element={<Home />}/>
+          <Route path='/homelisting' element={<HomeListing />}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </div>
     </Router>
